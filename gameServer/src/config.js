@@ -47,6 +47,11 @@ export const MAX_UNDO_EVENT_TIME = 600;
 export const MAX_UNDO_TILE_COUNT = 5;
 
 /**
+ * List of game modes where trail cancel is allowed.
+ */
+export const TC_ALLOWED_GAME_MODES = ["arena", "drawing"];
+
+/**
  * The maximum allowed skin color id.
  */
 export const VALID_SKIN_COLOR_RANGE = 13;
